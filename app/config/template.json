@@ -1,0 +1,73 @@
+{
+    "root": {
+        "@JobName": "{{projectName}}",
+        "@Encdoing": "UTF-8",
+        "StepAddressType": "0",
+        "StartAddress": "{{startUrl}}",
+        "StepAddress": {
+            "@UrlAreaStart": "",
+            "@UrlAreaEnd": "",
+            "@UrlForbid": "",
+            "@UrlMust": "",
+            "@PostData": "",
+            "@PostStart": "0",
+            "@HttpMethod": "0",
+            "@PostTextFile": "",
+            "@NickName": "",
+            "@AutoPages": "",
+            "@GetUrlType": "0",
+            "@ListAutoTerminal": "1",
+            "@ManualUrlStyle": "",
+            "@ManualUrlCompile": "",
+            "@XpathContent": "",
+            "@PagesAreaStart": "",
+            "@PagesAreaEnd": "",
+            "@PagesUrlStyle": "",
+            "@PagesUrlCompile": "",
+            "@PagesMax": "0",
+            "@AddLabel": "",
+            "@AddLabelFromUrl": "0",
+            "@AspxEnd": "0",
+            "@PostHeadAdd": "",
+            "Filters": null
+        },
+        "Fields": {
+            "Field": [
+                {
+                    "@LabelName": "title",
+                    "@SourcePage": "\u9ed8\u8ba4\u9875\u9762",
+                    "@PageArea": "",
+                    "@FetchDataType": "0",
+                    "@AreaStart": "",
+                    "@AreaEnd": "",
+                    "@SourcePageType": "0",
+                    "@SourcePagePart": "0",
+                    "@GetDataType": "0",
+                    "@StartStr": "<title>",
+                    "@EndStr": "</title>"
+                },
+                {
+                    "@LabelName": "body",
+                    "@SourcePage": "\u9ed8\u8ba4\u9875\u9762",
+                    "@PageArea": "",
+                    "@FetchDataType": "0",
+                    "@AreaStart": "",
+                    "@AreaEnd": "",
+                    "@SourcePageType": "0",
+                    "@SourcePagePart": "0",
+                    "@GetDataType": "0",
+                    "@StartStr": "<body>",
+                    "@EndStr": "</body>"
+                }
+            ]
+        },
+        "ListFields": null,
+        "ManualHeaders": {
+            "User-Agent": "Mozilla/5.0 (compatible; spider)"
+        },
+        "DataExport": {
+            "ExportType": "0",
+            "ExportText": null
+        }
+    }
+}
